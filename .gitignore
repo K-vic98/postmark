@@ -60,3 +60,33 @@ fastlane/report.xml
 fastlane/Preview.html
 fastlane/screenshots/**/*.png
 fastlane/test_output
+
+# Tuist
+Derived/
+*.xcodeproj
+*.xcworkspace
+.tuist-bin/
+
+# mise
+.mise.local.toml
+
+# Kotlin / Gradle (server)
+.gradle/
+**/build/
+!**/build.gradle.kts
+.kotlin/
+
+# IDE
+.idea/
+*.iml
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.p8
+*.p12
+*.mobileprovision
+
+# macOS
+.DS_Store
